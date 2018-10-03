@@ -1,0 +1,63 @@
+  #banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.comic_row{
+	display: flex;
+    flex-direction: row;
+	justify-content: space-between;
+	border: 1px solid #1C6EA4;
+	width:500px;
+	height: 100px;
+    margin: 0 auto;
+    background: #1C6EA4;
+	background: -moz-linear-gradient(left, #1C6EA4 0%, #2388CB 48%, #144E75 100%);
+	background: -webkit-linear-gradient(left, #1C6EA4 0%, #2388CB 48%, #144E75 100%);
+	background: linear-gradient(to right, #1C6EA4 0%, #2388CB 48%, #144E75 100%);
+}
+
+.comic_row_left{
+	display: flex;
+	flex-direction: column;
+	margin-left: 2px;
+	flex-grow: 2;
+}
+
+.comic_title{
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	font-size: 24px;
+}
+
+.policies{
+	margin-top: 10px;
+	display: flex;
+	align-content: left;
+}
+
+.policy_element{
+	margin-left: 5px;
+	display: flex;
+    flex-direction: row;
+	justify-content: center;
+}
+
+.policy_element_name{
+  background-color: rgba(35,186,111,0.76);
+  border: 3px solid rgba(35,186,111,0.76);
+}
+
+.policy_element_value{
+	background-color: rgba(69,101,209,0.76);
+	border: 3px solid rgba(69,101,209,0.76);
+}
+
+.comic_pages_count{
+	width: 50px;
+	align-content: center;
+}
